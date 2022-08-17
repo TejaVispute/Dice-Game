@@ -1,0 +1,66 @@
+/* universal selector for every page */
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to bottom, #ffff00 0%, #66ff99 100%);
+    overflow: hidden;
+}
+.container h1{
+    color:white;
+    font-family: cursive;
+}
+
+/* box styling indide main container */
+.box {
+    height: 400px;
+    width: 400px;
+    border: 2px solid black;
+    display: flex;
+    border-radius: 20px;
+    align-items: center;
+    padding: 20px;
+    flex-direction: column;
+    -webkit-box-shadow: 6px 7px 13px -1px rgba(0, 0, 0, 0.47);
+    -moz-box-shadow: 6px 7px 13px -1px rgba(0, 0, 0, 0.47);
+    box-shadow: 6px 7px 13px -1px rgba(0, 0, 0, 0.47);
+    background: linear-gradient(to top left, #0066ff 17%, #0066cc 83%);
+
+}
+
+/* dice section styling */
+.dice {
+    height: 200px;
+    width: 200px;
+    /* border: 2px solid white; */
+    display: flex;
+    text-align: center;
+    color: whitesmoke;
+}
+
+/* button css starts from here */
+
+.btn{
+    padding: 10px 20px;
+    font-size: 20px;
+    font-family: cursive;
+    cursor: pointer;
+}
+/* button css Ends  here */
+
+/* dice styling starts here */
+.m-dice{
+    height: 100vh;
+    width: 100vw;
+    font-size: 200px;
+    cursor: pointer;
+}
+/* dice styling ends here */
